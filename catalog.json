@@ -36,6 +36,41 @@
         "Character-left eye mask preserved; front-facing frames cover the viewer-right eye.",
         "running-left was generated as a true left-running animation to preserve the eye-mask side."
       ]
+    },
+    {
+      "id": "aqua-ribbon",
+      "displayName": "Aqua Ribbon",
+      "description": "A cheerful aqua-haired chibi schoolgirl Codex desktop pet.",
+      "packagePath": "pets/aqua-ribbon",
+      "manifestPath": "pets/aqua-ribbon/pet.json",
+      "spritesheetPath": "pets/aqua-ribbon/spritesheet.webp",
+      "preview": {
+        "contactSheet": "previews/aqua-ribbon/contact-sheet.png",
+        "gifs": [
+          "previews/aqua-ribbon/gifs/idle.gif",
+          "previews/aqua-ribbon/gifs/waiting.gif",
+          "previews/aqua-ribbon/gifs/review.gif",
+          "previews/aqua-ribbon/gifs/running-right.gif"
+        ],
+        "videos": [
+          "previews/aqua-ribbon/videos/idle.mp4",
+          "previews/aqua-ribbon/videos/running-right.mp4",
+          "previews/aqua-ribbon/videos/running-left.mp4",
+          "previews/aqua-ribbon/videos/waving.mp4",
+          "previews/aqua-ribbon/videos/jumping.mp4",
+          "previews/aqua-ribbon/videos/failed.mp4",
+          "previews/aqua-ribbon/videos/waiting.mp4",
+          "previews/aqua-ribbon/videos/running.mp4",
+          "previews/aqua-ribbon/videos/review.mp4"
+        ]
+      },
+      "sha256": {
+        "spritesheet": "3d53d123cccf14e5323fef8cab3e9949ffce87d98d6b582ef9b3d080aa596638"
+      },
+      "notes": [
+        "Generated with the hatch-pet skill from chibi schoolgirl character references.",
+        "running-left was generated separately instead of mirrored to preserve the one-sided yellow hair ribbon."
+      ]
     }
   ]
 }

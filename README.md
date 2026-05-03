@@ -14,11 +14,22 @@ Fan-made animated pets for the Codex desktop app.
 
 Full MP4 previews live in `previews/anaxa-sage/videos/`.
 
+### Aqua Ribbon
+
+![Aqua Ribbon contact sheet](previews/aqua-ribbon/contact-sheet.png)
+
+| Idle | Waiting | Review | Run |
+| --- | --- | --- | --- |
+| <img src="previews/aqua-ribbon/gifs/idle.gif" width="160" alt="Aqua Ribbon idle animation"> | <img src="previews/aqua-ribbon/gifs/waiting.gif" width="160" alt="Aqua Ribbon waiting animation"> | <img src="previews/aqua-ribbon/gifs/review.gif" width="160" alt="Aqua Ribbon review animation"> | <img src="previews/aqua-ribbon/gifs/running-right.gif" width="160" alt="Aqua Ribbon running animation"> |
+
+Full MP4 previews live in `previews/aqua-ribbon/videos/`.
+
 ## Pets
 
 | Pet | Folder | Preview |
 | --- | --- | --- |
 | 那刻夏 | `pets/anaxa-sage` | [contact sheet](previews/anaxa-sage/contact-sheet.png) |
+| Aqua Ribbon | `pets/aqua-ribbon` | [contact sheet](previews/aqua-ribbon/contact-sheet.png) |
 
 ## Install
 
