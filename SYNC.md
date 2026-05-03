@@ -70,7 +70,7 @@ python .\scripts\validate_catalog.py
 Expected result:
 
 ```text
-catalog ok: 2 pet(s)
+catalog ok: 1 pet(s)
 ```
 
 ## Current Aqua Ribbon Package
@@ -87,4 +87,52 @@ The generated package was produced with the `hatch-pet` skill and has local QA f
 ```text
 previews/aqua-ribbon/review.json
 previews/aqua-ribbon/validation.json
+```
+
+## How Aqua Ribbon Was Created
+
+The pet was generated with Codex's `hatch-pet` skill. The workflow was:
+
+1. Install and reload the `hatch-pet` skill.
+2. Use the character reference images and the approved chibi standing base sprite as identity references.
+3. Generate a canonical base sprite.
+4. Generate the 9 Codex pet animation rows:
+   `idle`, `running-right`, `running-left`, `waving`, `jumping`, `failed`, `waiting`, `running`, and `review`.
+5. Generate `running-left` separately instead of mirroring `running-right`, because the character has a one-sided yellow hair ribbon.
+6. Finalize with the `hatch-pet` scripts to extract frames, compose the 8x9 atlas, validate it, render previews, and package the pet.
+
+Original creation request:
+
+```text
+$hatch-pet create a Codex desktop pet based on these character reference images.
+
+Use the chibi standing base sprite as the main identity reference. The pet should be a small pixel-art-adjacent chibi desktop mascot, not polished anime key art.
+
+Character traits:
+short pale aqua-silver hair, bright yellow eyes, yellow-and-black side hair ribbon, loose white rolled-sleeve shirt, dark gray plaid pleated skirt, black thigh-high socks, brown loafers, yellow bracelet, cheerful energetic personality.
+
+Important constraints:
+keep her grounded, not floating; no checkerboard background; no shadows; no text; no UI props; keep the outfit and face consistent across all animation rows.
+```
+
+The local run folder used during creation was:
+
+```text
+%USERPROFILE%\.codex\hatch-pet-runs\aqua-ribbon
+```
+
+Key QA outputs from that run were copied into this repo:
+
+```text
+previews/aqua-ribbon/contact-sheet.png
+previews/aqua-ribbon/review.json
+previews/aqua-ribbon/validation.json
+previews/aqua-ribbon/gifs/
+previews/aqua-ribbon/videos/
+```
+
+The final generated Codex package was copied from:
+
+```text
+%USERPROFILE%\.codex\pets\aqua-ribbon
 ```

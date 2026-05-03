@@ -4,16 +4,6 @@ Fan-made animated pets for the Codex desktop app.
 
 ## Preview
 
-### 那刻夏
-
-![那刻夏 contact sheet](previews/anaxa-sage/contact-sheet.png)
-
-| Idle | Waiting | Review | Run |
-| --- | --- | --- | --- |
-| <img src="previews/anaxa-sage/gifs/idle.gif" width="160" alt="那刻夏 idle animation"> | <img src="previews/anaxa-sage/gifs/waiting.gif" width="160" alt="那刻夏 waiting animation"> | <img src="previews/anaxa-sage/gifs/review.gif" width="160" alt="那刻夏 review animation"> | <img src="previews/anaxa-sage/gifs/running-right.gif" width="160" alt="那刻夏 running animation"> |
-
-Full MP4 previews live in `previews/anaxa-sage/videos/`.
-
 ### Aqua Ribbon
 
 ![Aqua Ribbon contact sheet](previews/aqua-ribbon/contact-sheet.png)
@@ -28,7 +18,6 @@ Full MP4 previews live in `previews/aqua-ribbon/videos/`.
 
 | Pet | Folder | Preview |
 | --- | --- | --- |
-| 那刻夏 | `pets/anaxa-sage` | [contact sheet](previews/anaxa-sage/contact-sheet.png) |
 | Aqua Ribbon | `pets/aqua-ribbon` | [contact sheet](previews/aqua-ribbon/contact-sheet.png) |
 
 ## Install
@@ -36,16 +25,16 @@ Full MP4 previews live in `previews/aqua-ribbon/videos/`.
 Install one pet:
 
 ```bash
-cp -R pets/anaxa-sage ~/.codex/pets/
+cp -R pets/aqua-ribbon ~/.codex/pets/
 ```
 
 Install with the helper:
 
 ```bash
-./scripts/install_pet.sh anaxa-sage
+./scripts/install_pet.sh aqua-ribbon
 ```
 
-Then open Codex, select `那刻夏`, and start a task to see the animations.
+Then open Codex, select `Aqua Ribbon`, and start a task to see the animations.
 
 ## Repo Layout
 
